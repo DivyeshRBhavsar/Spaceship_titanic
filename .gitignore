@@ -1,0 +1,77 @@
+# ----------------------
+# Python virtual env
+# ----------------------
+venv/
+env/
+myenv/
+
+# ----------------------
+# Python cache files
+# ----------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ----------------------
+# Environment variables (VERY IMPORTANT)
+# ----------------------
+.env
+.env.*
+*.env
+
+# ----------------------
+# Secrets / credentials
+# ----------------------
+secrets.json
+config.json
+credentials.json
+*.key
+*.pem
+
+# ----------------------
+# Data files (can be sensitive / large)
+# ----------------------
+data/
+*.csv
+*.xlsx
+*.parquet
+
+# (optional: allow sample data)
+!data/sample.csv
+
+# ----------------------
+# Logs
+# ----------------------
+*.log
+
+# ----------------------
+# Jupyter Notebook checkpoints
+# ----------------------
+.ipynb_checkpoints/
+
+# ----------------------
+# IDE / Editor files
+# ----------------------
+.vscode/
+.idea/
+*.swp
+
+# ----------------------
+# OS files
+# ----------------------
+.DS_Store
+Thumbs.db
+
+# ----------------------
+# Build / dist
+# ----------------------
+build/
+dist/
+*.egg-info/
+
+# ----------------------
+# R / renv (if using RStudio)
+# ----------------------
+renv/library/
+renv/staging/
