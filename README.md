@@ -12,7 +12,7 @@ Predict the target variable:
 Transported (True/False)
 
 ## Current Performance
-✅ Latest Accuracy: 80.209%
+✅ Latest Accuracy: 80.789%
 
 🔄 Status: Work in Progress (Improving performance further)
 
@@ -47,10 +47,10 @@ Logistic Regression
 Random Forest
 Gradient Boosting (or similar ensemble models)
 Xgboost
-Catboost
+Catboost(Winning Model)
 
-Current best model achieves(Catboost):
-Accuracy: 80.209%
+Current best model achieves(Catboost optuna study):
+Accuracy: 80.789%
 
 ### Tech Stack
 Python 🐍
